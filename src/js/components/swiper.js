@@ -9,7 +9,7 @@ export function swiper() {
         autoplay: {
           delay: 5000,
         },
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 20,
         pagination: {
           el: ".carousel-pagination",

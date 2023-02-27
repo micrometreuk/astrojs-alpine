@@ -14,14 +14,13 @@ import SideStatsLeft from "@components/content/features/SideStatsLeft.astro";
 import Pricing from "@components/content/Pricing.astro";
 import Cta from "@components/content/Cta.astro";
 import Testimonials from "@components/content/Testimonials.astro";
+import ReactSwiper from "@components/react/ReactSwiper.jsx";
+
 ---
 
 <Layout title="Home">
 
-  <SectionMuted>
-    <Container>
-      <Testimonials />
-    </Container>
-  </SectionMuted>
+      <ReactSwiper client:load/>
+ 
 
 </Layout>

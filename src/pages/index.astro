@@ -16,12 +16,13 @@ import Cta from "@components/content/Cta.astro";
 import Testimonials from "@components/content/Testimonials.astro";
 import ReactSwiper from "@components/react/ReactSwiper.jsx";
 import ReactHero from "@components/react/ReactHero.jsx";
+import Tmp from "@components/Tmp.astro";
 
 ---
 
 <Layout title="Home">
 
-      <ReactSwiper client:load/>
       <ReactHero client:load/>
+      <Tmp />
 
 </Layout>

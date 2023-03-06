@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Parallax, Pagination, Navigation, Autoplay, Zoom } from "swiper";
+
 import "../react/style.css"
 
 // import required modules
